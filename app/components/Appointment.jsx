@@ -1,4 +1,3 @@
-import React from "react";
 import Input from "./Input";
 import Hexa1 from "../svgs/Hexa1";
 import SectionHeader from "./SectionHeader";

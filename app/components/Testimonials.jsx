@@ -1,5 +1,4 @@
 import { testimonials } from "@/data/data";
-import Image from "next/image";
 import React from "react";
 import ReviewCard from "./ReviewCard";
 import SectionHeader from "./SectionHeader";

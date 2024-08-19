@@ -1,5 +1,3 @@
-import React from "react";
-
 import Triangle from "../svgs/Triangle";
 
 const Dept = ({ item, currDept, onClick, identity }) => {

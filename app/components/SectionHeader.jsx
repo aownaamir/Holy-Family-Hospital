@@ -1,5 +1,3 @@
-import React from "react";
-
 const SectionHeader = ({ title, children }) => {
   return (
     <div className="px-3 lg:px-10 py-4 bg-mehron-100  flex flex-col gap-5 justify-center items-center mb-10 shadow-lg">

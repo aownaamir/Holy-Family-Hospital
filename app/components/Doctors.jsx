@@ -1,13 +1,11 @@
 "use client";
 import { doctors } from "@/data/data";
-import Image from "next/image";
 import React, { useState } from "react";
 import Doctor from "./Doctor";
 import SectionHeader from "./SectionHeader";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Doctors = () => {
-  const [currInd, setCurrInd] = useState(0);
   return (
     <div id="doctors" className="mt-[80px]">
       <SectionHeader title="Meet Our Specialists">

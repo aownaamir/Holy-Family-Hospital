@@ -1,10 +1,5 @@
 "use client";
-import one from "@/public/one.jpg";
-import three from "@/public/three.jpg";
-import Image from "next/image";
 import { useState } from "react";
-import { ResizableBox } from "react-resizable";
-import { Rnd } from "react-rnd";
 import ImageComparison from "./ImageComparison";
 import SectionHeader from "./SectionHeader";
 

@@ -6,7 +6,6 @@ import Image from "next/image";
 import SectionHeader from "./SectionHeader";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
-// import Brain from "@/public/brain.svg";
 const Department = () => {
   const [currDept, setCurrDept] = useState(0);
   const dept = departments[currDept];

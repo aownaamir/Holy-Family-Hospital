@@ -1,6 +1,4 @@
-import { testimonials } from "@/data/data";
 import Image from "next/image";
-import React from "react";
 
 const ReviewCard = ({ item, ind }) => {
   return (

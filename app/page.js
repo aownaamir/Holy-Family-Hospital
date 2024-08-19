@@ -10,8 +10,6 @@ import Appointment from "./components/Appointment";
 import BeforeAfter from "./components/BeforeAfter";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
-import { useEffect, useState } from "react";
-import Back from "./components/Back";
 
 export default function Home() {
   return (
@@ -23,11 +21,10 @@ export default function Home() {
       <Appointment />
       <Doctors />
       <Gallery />
-      <BeforeAfter />
+      {/* <BeforeAfter /> */}
       <Testimonials />
       <Contact />
       <Footer />
-      {/* <Back /> */}
     </div>
   );
 }

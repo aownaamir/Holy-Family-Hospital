@@ -1,17 +1,8 @@
 "use client";
-import avatar from "@/public/avatar.png";
-import call from "@/public/call.png";
-import Image from "next/image";
 import SectionHeader from "./SectionHeader";
-import Doctors from "@/public/doctors.svg";
-import Service from "@/public/service.svg";
-import Emergency from "@/public/emergency.svg";
 import { aboutUsCards } from "@/data/data";
 import AboutUsCard from "./AboutUsCard";
 import Phone from "../svgs/Phone";
-import Left from "../svgs/Left";
-import Right from "../svgs/Right";
-import { useState } from "react";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 

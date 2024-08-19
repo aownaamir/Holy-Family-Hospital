@@ -1,5 +1,3 @@
-import React from "react";
-
 const AboutUsCard = ({ item }) => {
   return (
     <div
