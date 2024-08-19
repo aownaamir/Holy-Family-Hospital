@@ -4,6 +4,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Doctor from "./Doctor";
 import SectionHeader from "./SectionHeader";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Doctors = () => {
   const [currInd, setCurrInd] = useState(0);
@@ -14,10 +15,16 @@ const Doctors = () => {
         industry. Lorem Ipsum the industry&apos;s standard dummy text.
       </SectionHeader>
 
-      <div className="px-3 py-1 lg:px-10  w-[386px] md:w-full m-auto whitespace-nowrap flex gap-7 transition-transform justify-center items-center overflow-x-scroll lg:overflow-x-hidden">
-        {doctors.map((item, ind) => (
-          <Doctor key={ind} item={item} ind={ind} />
-        ))}
+      <div className="px-12 md:px-6 lg:px-10 mb-7 xl:px-[5.5rem]  flex flex-col gap-2">
+        <div className="custom-scrollbar w-full m-auto h-full gap-5 flex  whitespace-nowrap  items-center justify-center overflow-x-scroll overflow-y-hidden scroll-m-2">
+          {doctors.map((item, ind) => (
+            <Doctor key={ind} item={item} ind={ind} />
+          ))}
+        </div>
+        <div className="w-full flex justify-between text-mehron-100 text-xl">
+          <FaArrowLeft />
+          <FaArrowRight />
+        </div>
       </div>
     </div>
   );

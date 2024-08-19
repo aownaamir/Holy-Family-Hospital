@@ -4,10 +4,7 @@ import MemberShape from "../svgs/MemberShape";
 
 const Doctor = ({ item }) => {
   return (
-    <div
-      // style={{ transform: `translateX(160.5%)` }}
-      className="w-[270px]   md:w-64 translate-x-[160.5%] md:translate-x-0 flex flex-none flex-col  border border-mehron-100 rounded-md gap-3"
-    >
+    <div className="w-[270px]   md:w-64 translate-x-[160.5%] md:translate-x-[190px] lg:translate-x-[75px] xl:translate-x-[1px] flex flex-none flex-col  border border-mehron-100 rounded-md gap-3">
       <div className="container rounded-md relative overflow-hidden">
         <div className="clip p-0 opacity-0 transition-all z-10 duration-700 bg-mehron-100 rounded-md absolute top-5 right-5 flex justify-center items-center">
           🔗

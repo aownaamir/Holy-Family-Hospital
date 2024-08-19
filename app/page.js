@@ -11,22 +11,11 @@ import BeforeAfter from "./components/BeforeAfter";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
+import Back from "./components/Back";
 
 export default function Home() {
-  // const [scrolled, setScrolled] = useState("false");
-  // useEffect(() => {
-  //   window.addEventListener("scroll", () => {
-  //     // setScrolled(window.scrollY > 0);
-  //     window.scrollY < 1000 ? setScrolled("true") : setScrolled("false");
-  //     // console.log(scrollY);
-  //     console.log(scrolled);
-  //   });
-  //   return () => {
-  //     window.removeEventListener("scroll", () => setScrolled(false));
-  //   };
-  // }, [scrolled]);
   return (
-    <div className="bg-slate-100 overflow-hidden">
+    <div className="bg-white">
       <Navbar />
       <HomePage />
       <About />
@@ -38,6 +27,7 @@ export default function Home() {
       <Testimonials />
       <Contact />
       <Footer />
+      {/* <Back /> */}
     </div>
   );
 }

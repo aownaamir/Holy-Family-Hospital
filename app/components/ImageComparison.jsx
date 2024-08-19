@@ -43,7 +43,7 @@ const ImageComparison = () => {
         onMouseDown={(e) => e.preventDefault()}
       >
         <div className="border border-black p-1 rounded-full bg-white flex justify-center items-center">
-          🔵
+          <div className="p-[0.7rem] bg-mehron-100 rounded-full"></div>
         </div>
       </div>
     </div>

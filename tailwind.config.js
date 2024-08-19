@@ -85,13 +85,13 @@ module.exports = {
     function ({ addUtilities }) {
       const newUtilities = {
         ".text-border-black1": {
-          textShadow: "2px 2px 3px #000",
+          textShadow: "1px 1px 0px #000",
         },
         ".text-border-black2": {
           textShadow: "0.8px 0.5px 1.5px #000",
         },
         ".text-border-white": {
-          textShadow: "2px 2px 3px #fff",
+          textShadow: "1px 0.1px 0.1px #fff",
         },
       };
       addUtilities(newUtilities);

@@ -14,7 +14,7 @@ const Appointment = () => {
         industry. Lorem Ipsum the industry&apos;s standard dummy text.
       </SectionHeader>
       <form action="">
-        <div className="px-3 lg:px-10  w-full flex flex-col justify-center items-center">
+        <div className="px-3 lg:px-10 w-full flex flex-col justify-center items-center">
           <div className="flex flex-col gap-7 items-start">
             <div className="flex flex-col gap-7 md:gap-5 md:flex-row justify-center items-center">
               <div className="flex flex-col gap-7 justify-center items-center">
@@ -28,7 +28,7 @@ const Appointment = () => {
                   <label htmlFor="">Department</label>
                   <select
                     defaultValue={0}
-                    className="w-[420px] border border-slate-500 rounded-md px-3 py-2"
+                    className="w-full border border-slate-500 rounded-md px-3 py-2"
                   >
                     <option value={0}>Select Department</option>
                     <option value={1}>Dental Care</option>
@@ -55,7 +55,7 @@ const Appointment = () => {
                   <label htmlFor="">Doctor</label>
                   <select
                     defaultValue={0}
-                    className="w-[420px] border border-slate-500 rounded-md px-3 py-2"
+                    className="w-full border border-slate-500 rounded-md px-3 py-2"
                   >
                     <option value={0}>Select Doctor</option>
                     <option value={0}>Dr. Ali</option>
@@ -73,7 +73,7 @@ const Appointment = () => {
               <label htmlFor="">Message</label>
               <textarea
                 type="text/area"
-                className="w-full md:w-[860px] border border-slate-500 rounded-md px-3 py-2"
+                className="w-full md:w-[720px] lg:w-[860px] border border-slate-500 rounded-md px-3 py-2"
                 placeholder="Write something here..."
               />
             </div>
